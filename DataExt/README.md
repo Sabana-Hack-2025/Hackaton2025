@@ -14,8 +14,6 @@ Su factor diferenciador es la integración entre predicción estadística y rest
 
 ## 🔹 Nivel de desarrollo
 
-(Selecciona o describe la etapa actual del proyecto: idea, prototipo, pre-integración, piloto, producción, etc.) (Incluye brevemente qué se ha implementado hasta el momento.)
-
 - Prototipo funcional 
 
 ## 🔹 Video de presentación
@@ -24,35 +22,33 @@ Su factor diferenciador es la integración entre predicción estadística y rest
 
 ## 🔹 Ventajas o fortalezas
 
-(Enumera entre 2 y 4 puntos que destaquen lo más positivo del proyecto, como innovación, impacto, rentabilidad, escalabilidad, etc.)
 
-Integra **predicción estadística y restauración ecológica**, combinando ciencia de datos y Soluciones Basadas en la Naturaleza (NbS–FRM).
+1. Integra predicción estadística y restauración ecológica, combinando ciencia de datos y Soluciones Basadas en la Naturaleza (NbS–FRM).
 
-En su primera etapa contempla el **montaje de una estación meteorológica local**, que permitirá validar y mejorar las predicciones con datos en tiempo real.
+2. En su primera etapa contempla el montaje de una estación meteorológica local, que permitirá validar y mejorar las predicciones con datos en tiempo real.
 
-Su arquitectura modular y adaptable permite que **KUAIRA pueda escalar a otros municipios rurales**, integrando futuras fases como alertas radiales y estaciones adicionales.
+3. Su arquitectura modular y adaptable permite que KUAIRA pueda escalar a otros municipios rurales, integrando futuras fases como alertas radiales y estaciones adicionales.
 
-Promueve una **gestión del riesgo basada en evidencia**, fortaleciendo la capacidad técnica de las administraciones locales.
+4. Promueve una gestión del riesgo basada en evidencia, fortaleciendo la capacidad técnica de las administraciones locales.
 
 ## 🔹 Desventajas o debilidades
 
-(Enumera entre 1 y 3 limitaciones actuales, dificultades técnicas o aspectos por mejorar.)
 
-Depende de la disponibilidad y calidad de los datos históricos para calibrar correctamente el modelo predictivo.
+1. Depende de la disponibilidad y calidad de los datos históricos para calibrar correctamente el modelo predictivo.
 
-Su rendimiento podría mejorar con la instalación de estaciones meteorológicas locales, que permitirían y ajustar las estimaciones en tiempo real.
+2. Su rendimiento podría mejorar con la instalación de estaciones meteorológicas locales, que permitirían y ajustar las estimaciones en tiempo real.
 
-La implementación y mantenimiento de las franjas ribereñas requiere tiempo, recursos y acompañamiento técnico especializado.
+3. La implementación y mantenimiento de las franjas ribereñas requiere tiempo, recursos y acompañamiento técnico especializado.
 
 ## 🔹 Detalles técnicos
 
-Lenguajes o tecnologías: (ej. Python, Java, React, etc.)
+Lenguajes o tecnologías:
 
-Python, FastAPI, React, TypeScript, HTML/CSS, Leaflet.js (mapas interactivos), Scikit-learn (modelo de regresión logística), Pandas, NumPy.
+- Python, FastAPI, React, TypeScript, HTML/CSS, Leaflet.js (mapas interactivos), Scikit-learn (modelo de regresión logística), Pandas, NumPy.
 
-Herramientas: (ej. MySQL, GitHub, Figma, etc.).  
+Herramientas:
 
-GitHub, OpenMeteo (API de datos climáticos), Datos abiertos Colombia.
+- GitHub, OpenMeteo (API de datos climáticos), Datos abiertos Colombia.
 
 ![][image1]
 
