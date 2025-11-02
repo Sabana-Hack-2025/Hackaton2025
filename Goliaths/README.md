@@ -65,6 +65,12 @@ https://www.canva.com/design/DAG3j9Br0KI/Zr4iRfUXQmCcqqcbNHoWOw/edit?utm_content
   <img src="./animacion.gif" width="400" alt="Simulación IoT en acción">
 </p>
 
+## Link al dashboard
+
+[Dashboard en figma](https://www.figma.com/make/GeOMoYRxLYUqWufjHw3RH8/Dashboard-de-Monitoreo-IoT?node-id=0-1&p=f)
+
+## Link al modelo de predicción
+
 
 
 
