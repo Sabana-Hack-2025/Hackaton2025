@@ -57,8 +57,10 @@ https://www.canva.com/design/DAG3j9Br0KI/Zr4iRfUXQmCcqqcbNHoWOw/edit?utm_content
 ## Link del PDF de la documentacion 
 [PDF de la socumentacion](https://github.com/Sabana-Hack-2025/Hackaton2025/blob/main/Goliaths/Documentacion.pdf)
 
-## Link a la carpeta del prototipo y simulacion del sistema IOT
+## Link a la carpeta del prototipo y simulacion del sistema IOT para descargar
 [Processing](https://github.com/Sabana-Hack-2025/Hackaton2025/blob/main/Goliaths/hnack.zip)
+![GifProcessing](https://github.com/usuario/repositorio/blob/main/animacion.gif)
+
 
 
 
