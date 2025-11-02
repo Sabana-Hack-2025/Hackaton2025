@@ -10,9 +10,11 @@ El proyecto está compuesto por dos productos complementarios:
 2. **Conecta Dining.** Una interfaz de facturación y cocina que **sincroniza en tiempo real** los pedidos entre meseros, caja y cocina, **eliminando las impresiones internas** de comandas y mejorando la **coordinación operativa** sin perder el **toque humano** del servicio.
 
 **Link del pitch en YouTube:** _[pendiente]_  
+
 **Link de la presentación:** (https://www.canva.com/design/DAG3itq-dWo/Md0NQI2mYPun2twG5TI5IA/view?utm_content=DAG3itq-dWo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h83ee416d11)
 
 **Link PDF de la documentación:** (https://github.com/BryamDigar/SABANAHACK.git), (https://hackaton2025-bdfw659csvysegpw8zs4s8.streamlit.app/)
+
 ---
 
 ## Ventajas
