@@ -5,7 +5,7 @@ Faktora digitaliza la facturación electrónica en Colombia, eliminando el uso d
 ---
 
 ## Demo / Video de presentación
-🔗 *(Pronto)*
+🔗 [*(Video)*](https://www.youtube.com/shorts/tPy7DbnjSHw)
 
 ## PDF de la documentación
 🔗 [Documento.pdf](./Documento.pdf)
