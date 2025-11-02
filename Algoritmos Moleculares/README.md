@@ -54,7 +54,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 ### Configuración
 
 1. Clonar los repositorios:
-[Link al repositorio de la pagina web](https://github.com/maosuarez/sabana-hack-webpage.git)
+[Link al repositorio de la pagina web](https://github.com/maosuarez/sabana-hack-webpage.git)  
 [Link al repositorio del modelo machine learning y chatbot](https://github.com/maosuarez/sabana-hack-chatbot.git)
 
 2. Instalar las dependencias del proyecto:
