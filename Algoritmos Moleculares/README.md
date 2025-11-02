@@ -128,3 +128,6 @@ La plataforma cuenta con una base de datos que permite identificar con precisió
 ## Desventajas
 
 El principal reto radica en fortalecer la confianza de la comunidad para que se motiven cada vez más a participar en distintas jornadas de capacitación. Asimismo, el éxito del sistema depende de una coordinación interinstitucional efectiva entre la comunidad, las autoridades locales y la Cruz Roja. Finalmente, existe cierta dependencia de la infraestructura tecnológica, ya que, aunque la alerta por Cell Broadcast no requiere conexión a internet, otras secciones como el mapa interactivo o la base de datos sí dependen de una conexión estable para su funcionamiento.
+
+## Modelo de Negocio  
+[ModeloDeNegocio](https://www.canva.com/design/DAG3f15GycI/EXXsjtxECLUqzcFTf-nmGA/view?utm_content=DAG3f15GycI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0d6e7b07dc)
