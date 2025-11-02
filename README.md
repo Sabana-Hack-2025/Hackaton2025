@@ -118,3 +118,8 @@ Sistema comunitario de alerta temprana para la vereda La Esmeralda (Tocancipá).
 canva link solo para ver:
 
 [!link de canva](https://www.canva.com/design/DAG3kG_oz-E/pWd1OuCTZbZsfcCXvQ5zcA/edit?utm_content=DAG3kG_oz-E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+## Drive
+
+[!link de drive](https://drive.google.com/drive/folders/1kZUFLf2Nrmv9_TAZi7WAutGpOW496Ycu?usp=drive_link)
