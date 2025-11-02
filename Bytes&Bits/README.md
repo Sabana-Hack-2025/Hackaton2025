@@ -12,11 +12,11 @@ Prototipo funcional
 
 ## Link al video
 
-Video de presentación
+[Video de la solución](https://youtu.be/uHioTsPEx6Y)
 
 ## Link a la presentacion
 
-https://www.canva.com/design/DAG3gSqScbo/mcevxCIgqRT_7IQdeAho4w/edit
+[Presentación](https://www.canva.com/design/DAG3gSqScbo/mcevxCIgqRT_7IQdeAho4w/edit)
 
 ## Ventajas o fortalezas de nuestra propuesta
 
