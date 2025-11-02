@@ -1,80 +1,100 @@
-# Cruz Roja — MVP (Sabana Hack 2025)
+# Ficha técnica del proyecto 🔹 Sabana_Hack
 
-Proyecto: Cruz_Roja_MVP  
-Equipo: MandarinaTech
+🔹 Nombre del proyecto
 
-Grupo: 
-Pablo Andres Ariza Hernandez
-Juan Felipe Ruge
-Jorge steven Doncel Bejarano
-Esteban David Hernandez Parra
+SIRC
 
-## Resumen
-MVP web para la Seccional Cundinamarca - Soacha de la Cruz Roja Colombiana que fusiona mapas interactivos, predicción asistida por IA y material de prevención visual. Facilita la identificación de zonas en riesgo (verde/ámbar/rojo), guía a la población con pasos claros en caso de alerta y permite la gestión básica de formularios de voluntariado. Su objetivo es acelerar la toma de decisiones y mejorar la mitigación de desastres a nivel comunitario.
+🔹 Descripción breve
 
-## Valor distintivo e innovación
-- Integración de predicciones climáticas y heurísticas con una capa de IA que clasifica riesgo por zona y define color persistente en el mapa.  
-- UX centrada en acciones: cuando la alerta es Alta (rojo) aparece contenido visual de prevención (imágenes + pasos) pensado para la lectura rápida y acción inmediata.  
-- Persistencia local de predicciones por zona (localStorage) y comunicación sencilla entre componentes (eventos globales) para reactividad sin complejidad de backends pesados.  
-- Digitalización de formularios de hojas para optimizar y ahorrar el tiempo y obtener persistencia de datos.
+SIRC es un prototipo web para la identificación y priorización de riesgos y oportunidades a nivel local. Combina visualización geoespacial, reglas heurísticas y soporte de modelos generativos para estimar probabilidad de eventos y ofrecer explicaciones, facilitando la toma de decisiones en entornos comunitarios o educativos.
 
-## Impacto social
-- Reduce tiempo de reacción al comunicar visualmente riesgo y acciones concretas a la población.  
-- Promueve comportamientos preventivos claros y accesibles (pasos con imágenes) durante emergencias.  
-- Facilita coordinación rápida entre voluntarios y comunidades mediante códigos y formularios validados (demo), mejorando la trazabilidad de acciones.
+🔹 Nivel de desarrollo
 
-## Características principales
-- Mapa interactivo (Leaflet) con polígonos coloreados por probabilidad IA (rojo/ámbar/verde).  
-- Panel de alertas con métricas (Población, IA%, AVCD, CMSR) y botón responsivo “Prevención” que abre una modal con pasos ilustrados.  
-- Modal de prevención responsive con navegación entre pasos e imágenes (carpeta `Prevencion/`).  
-- Pestaña "Voluntarios" que abre formularios HTML listos para imprimir/guardar en PDF y simulación de entrega con validación de código.  
-- Proxy de IA (server/) para aislar credenciales y permitir fallback heurístico si el servicio IA no está disponible.
+Prototipo funcional / pre-integración.
+Implementado hasta ahora:
+- Frontend en Vite + React + TypeScript con componentes UI y mapa interactivo.
+- Motor de consulta/heurística y proxy AI en Node.js/Express (carpeta `server/`) que integra lógica para llamar a modelos generativos (Gemini) y una ruta API `/api/ai/gemini`.
+- Recursos de datos locales y componentes para AVCD / CMRC (carpeta `src/` y `data/`).
 
-## Estructura del repositorio (resumen)
-- src/ — frontend React + TypeScript (Vite).  
-  - components/ — componentes UI (MapView, Header, LocationAlert, AdvcSection, CMRCSection, PreventionModal, etc.).  
-  - Formulario(s): `src/Formularios/*.html` (formularios estáticos).  
-  - Prevencion/ — imágenes numeradas para modal de prevención.  
-- server/ — proxy para llamadas a la API de IA (gemini) y manejo de claves.  
-- public/ — assets públicos (recomendado para desplegar formularios/imagenes).
+🔹 Video de presentación
 
-## Requisitos y variables de entorno
-- Node.js 18+ y npm.  
-- Variables principales:
-  - VITE_AI_PROXY_URL (por defecto `http://localhost:3001`)  
-  - VITE_OWM_KEY (opcional, OpenWeatherMap API key para enriquecer predicciones)  
-  - En `server/.env`: GEMINI_API_KEY o credenciales necesarias para el proveedor de IA (opcional; si falta se usa heurística local).
+🔗 (https://www.canva.com/design/DAG3hZB_jsA/YtU_g-pfovfeJajdYffw4g/edit?utm_content=DAG3hZB_jsA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## Cómo ejecutar (desarrollo)
-1. Instalar dependencias:
-```bash
-npm install
-cd server && npm install
-```
-2. Levantar proxy IA (opcional, si quieres respuestas reales):
-```bash
-cd server
-npm start
-```
-3. Levantar frontend:
-```bash
-cd /home/cyberteh/Proyectos/SabanaHack/Cruz_Roja_MVP(2)
-npm run dev
-```
-4. Abrir `http://localhost:5173` y verificar que `VITE_AI_PROXY_URL` apunte al proxy si está en uso.
+🔹 Ventajas o fortalezas
 
-## Notas operativas
-- Si el proxy IA no responde, la aplicación usa un fallback heurístico y muestra mensajes de error claros en la UI.  
-- Para producción se recomienda servir los formularios e imágenes desde `public/` y proteger el proxy IA con autenticación y despliegue supervisado (pm2/systemd).
+- Prototipo modular: frontend y backend separados, facilita pruebas y despliegue incremental.
+- Visualización geoespacial (Leaflet + react-leaflet) para análisis por zona y soporte de componentes reutilizables.
+- Integración inicial con modelos generativos vía un proxy controlado (maneja rate limit y fallback heurístico).
+- Uso de herramientas modernas (Vite, TypeScript, Tailwind) que aceleran el desarrollo y mantienen buena experiencia de DX.
+- Digitalización de formularios con validación de tipo de usuario (Voluntario o Lider), lo que permite optimizar tiempo y tener persistencia de datos.
 
-## Cómo contribuir
-- Reporta issues, añade mejoras de accesibilidad y pruebas visuales.  
-- Para agregar imágenes de prevención: colocarlas numeradas en `Prevencion/` y actualizar índices si se requiere otro orden.
+🔹 Desventajas o debilidades
 
-## Licencia y contacto
-- Proyecto de demostración para Sabana Hack 2025 — uso interno y educativo.  
-- Contacto: equipo MandarinaTech.
+- Muchas decisiones están basadas en heurísticas o datos de prueba.
+- Integraciones externas (p. ej. API de modelos, bases de datos en producción) requieren configuración y credenciales; actualmente la proxy admite API key o GoogleAuth pero necesita secretos y despliegue seguro.
+
+
+🔹 Detalles técnicos
+
+Lenguajes / frameworks:
+- Frontend: TypeScript, React 18, Vite
+- Backend: Node.js (ES modules), Express
+
+Dependencias y librerías detectadas (no exhaustivo):
+- Frontend: react, react-dom, @tanstack/react-query, react-hook-form, recharts, leaflet, react-leaflet, clsx, zod
+- Estilado: tailwindcss, postcss, autoprefixer
+- Backend: express, cors, dotenv, express-rate-limit, node-fetch, google-auth-library
+- Otros: @supabase/supabase-js (dependencia presente, revisar uso)
+
+Herramientas / configuración:
+- Bundler / dev: Vite
+- Typechecking: TypeScript (tsconfig con strict=true)
+- Control de versiones: Git (repositorio local en el equipo)
+
+Alcance del prototipo:
+- Interfaz completa con: solicitud de ubicación, mapa interactivo, paneles AVCD/CMSR, tarjetas y secciones informativas.
+- API proxy para generación de análisis de riesgo (ruta `/api/ai/gemini`) que intenta usar Gemini (o heurística de fallback) y aplica rate limiting.
+- Datos de ejemplo y componentes listos para añadir fuentes reales (por ejemplo, Supabase/Postgres o un servicio de datos).
+
+Presupuesto estimado
+
+Rango aproximado: USD 5,000 — 25,000 (dependerá del alcance de validación en campo, integración con datos reales, equipo y despliegue en producción). Este estimado cubre: desarrollo adicional, pruebas en campo, infraestructura (hosting, certificados, bases de datos) y equipo mínimo de QA/ops.
+
+🔹 Repositorio del proyecto
+
+
+🔗 Remoto: https://github.com/gevengood/Sabana_Hack.git
 
 ---
 
-Adicionalmente, el enlace al repositorio original es: https://github.com/gevengood/Sabana_Hack.git
+
+## Cómo ejecutar (desarrollo)
+
+Requisitos: Node.js (v16+ o v18+ recomendado), npm y PowerShell en Windows.
+
+- Levantar el frontend (desde la raíz del proyecto):
+
+```powershell
+npm install
+npm run dev
+# Por defecto Vite sirve en http://localhost:5173
+```
+
+- Levantar el proxy AI (servidor) en otra terminal:
+
+```powershell
+cd server
+npm install
+# Crear un archivo .env en el directorio server o exportar variables según .env.example
+npm start
+# Proxy por defecto: http://localhost:3001
+```
+
+- Chequeo rápido de TypeScript (desde la raíz):
+
+```powershell
+npm run typecheck
+```
+
+Nota: el servidor proxy requiere credenciales para llamar a la API de Gemini. Configure `GEMINI_API_KEY` (flujo de API key) o `GOOGLE_APPLICATION_CREDENTIALS` (ruta al JSON de la cuenta de servicio) según prefieras. Usa `.env.example` como plantilla.
+
