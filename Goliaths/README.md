@@ -13,6 +13,41 @@ Además, la información proveniente de los sensores alimenta un simulador predi
 Paralelamente, la comunidad implementa acciones de prevención basadas en la naturaleza, como el control del buchón de agua, la construcción de check dams para reducir la velocidad del cauce y retener sedimentos, y la revegetación de las riberas con especies nativas, que ayuda a absorber el exceso de agua, fijar el suelo y disminuir la erosión.
 
 De esta manera, integra tecnología accesible, conocimiento local y soluciones ecológicas para reducir el riesgo, mejorar la respuesta y fortalecer la capacidad de recuperación de la vereda La Esmeralda en Tocancipá ante eventos de inundación.
+Esta propuesta plantea una solución integral de resiliencia comunitaria frente a inundaciones, que combina tecnología IoT, ingeniería natural y acción local.
+El sistema utiliza una red de sensores LoRa alimentados por energía solar, capaces de monitorear en tiempo real variables hidrológicas clave como la precipitación (pluviómetro), el nivel del agua (sensor ultrasónico) y la sedimentación en puntos críticos de la quebrada.
+
+Cuando se detectan condiciones de riesgo, como lluvias intensas o incrementos repentinos del nivel y los sedimentos, el sistema activa alertas locales inmediatas mediante luces y sirenas comunitarias, y de manera simultánea envía notificaciones automáticas a las autoridades competentes.
+Toda la información recolectada se centraliza en un dashboard en la nube, que facilita el seguimiento institucional en tiempo real y el registro histórico de los eventos.
+
+Adicionalmente, los datos de los sensores alimentan un modelo predictivo que estima la probabilidad de inundación según la altura del cauce y las variables medidas, permitiendo tomar decisiones preventivas con anticipación.
+De forma complementaria, la comunidad implementa acciones basadas en la naturaleza, como el control del buchón de agua, la construcción de “check dams” para disminuir la velocidad del flujo y retener sedimentos, y la revegetación de las riberas con especies nativas, que contribuyen a absorber el exceso de agua, fijar el suelo y reducir la erosión.
+
+En conjunto, esta solución integra tecnología accesible, conocimiento local y estrategias ecológicas, fortaleciendo la prevención, la respuesta y la recuperación de la vereda La Esmeralda (Tocancipá) ante eventos de inundación.
+
+### Ventajas o fortalezas
+
+***Conectividad autónoma:*** el sistema opera de forma independiente a la conexión a internet, utilizando LoRa para la comunicación local entre los sensores y el gateway, y 4G LTE cuando hay cobertura disponible, para transmitir los datos a la nube y habilitar su análisis remoto.
+
+***Autosuficiente:*** todos los nodos usan energía solar, sin depender de red eléctrica.
+
+***Enfoque comunitario:*** integra alertas sonoras y visuales para la población local tomando en cuenta poblacion en situaciones de discapacidad.
+
+***Escalable y replicable:*** puede adaptarse a otras veredas o municipios vulnerables.
+
+***Enfoque sostenible:*** combina tecnología accesible con soluciones basadas en la naturaleza, promoviendo autonomía comunitaria y bajo costo de mantenimiento.
+
+***Predicción y toma de decisiones:*** los datos históricos capturados alimentan un modelo predictivo de inundaciones, que permite anticipar eventos de riesgo y planificar acciones preventivas basadas en evidencia.
+
+
+### Desventajas o debilidades
+
+- Dependencia parcial de la señal 4G para enviar datos a la nube.
+
+- Limitaciones de autonomía nocturna si hay baja radiación solar prolongada.
+
+### Nivel de desarrollo: Prototipo funcional
+
+Mas detalles se pueden encontrar en la carpeta de documentacion 
 
 ## Link del pitch
 
