@@ -69,8 +69,12 @@ https://www.canva.com/design/DAG3j9Br0KI/Zr4iRfUXQmCcqqcbNHoWOw/edit?utm_content
 
 [Dashboard en figma](https://www.figma.com/make/GeOMoYRxLYUqWufjHw3RH8/Dashboard-de-Monitoreo-IoT?node-id=0-1&p=f)
 
-## Link al modelo de predicción
+## Link al repositorio del  modelo de predicción
+[Repositorio en Github](https://github.com/CristianCastaGu/flood-prediction-dashboard)
 
+[Dashboard](https://flood-prediction-dashboardgit-z3tx5uzkm6xoys579ujhde.streamlit.app/)
 
+## Link modelo de negocios
+[Business Model Canvas](https://www.canva.com/design/DAG3jdjT5Wo/PdNdKYhkn4V_ksHXkzalGw/edit?utm_content=DAG3jdjT5Wo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
