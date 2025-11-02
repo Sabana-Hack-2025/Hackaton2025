@@ -106,8 +106,3 @@ Sistema comunitario de alerta temprana para la vereda La Esmeralda (Tocancipá).
 - **Impacto medible**: registro de incidentes, simulacros, tiempos de respuesta y daños evitados.  
 - **Participación comunitaria**: inclusión de mujeres, jóvenes y líderes locales en operación y decisiones.  
 - **Limitaciones técnicas y presupuesto**: sin ingeniería civil; arquitectura viable dentro del presupuesto.
-
----
-
-## Pendientes clave
-- Escalamiento de tarifas Twilio (SMS/voz/WhatsApp).
