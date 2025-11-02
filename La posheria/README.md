@@ -9,7 +9,10 @@
 Sabana Dining System es un *sistema* que digitaliza todo el proceso de venta y preparación, elimina el uso de papel y transforma los registros diarios en información estratégica, *priorizando la mejora de la experiencia y la calidad del servicio para el usuario final*.
 
 ### Link del pitch en YouTube
+https://youtu.be/3y9To5Ui3ps?si=KBHlMsxUzN18H8_1
 
+### Link Unisabana Dining System
+https://sabana-hack-proyect.vercel.app
 
 ### Link de la presentación
 https://www.canva.com/design/DAG3jnDrBRw/gNFsWGZq4DUP1fwdg88Dgg/edit?utm_content=DAG3jnDrBRw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
