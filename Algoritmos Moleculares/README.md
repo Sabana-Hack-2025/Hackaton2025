@@ -104,6 +104,9 @@ El proyecto se ejecutará normalmente en `http://localhost:3000` a menos que se 
 
 ---
 
+### Archivo de Genasy  
+[Genasys_v1.docx](https://github.com/user-attachments/files/23291570/Genasys_v1.docx)
+
 ### Notas adicionales
 
 * Asegúrate de configurar correctamente las variables de entorno antes de ejecutar cualquier comando que interactúe con la base de datos.
