@@ -50,7 +50,7 @@ En conjunto, esta solución integra tecnología accesible, conocimiento local y 
 Mas detalles se pueden encontrar en la carpeta de documentacion 
 
 ## Link del pitch
-
+[Link youtube](https://youtu.be/WOHLdZ1KpHU)
 ## link de la presentacion 
 https://www.canva.com/design/DAG3j9Br0KI/Zr4iRfUXQmCcqqcbNHoWOw/edit?utm_content=DAG3j9Br0KI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
