@@ -2,11 +2,11 @@
 Proyecto del equipo **Algoritmos Moleculares** para Sabana Hack 2025
 
 # Integrantes del equipo
-Camilo Arciniegas 
-Mariana Ardila
-Nicolás Clavijo
-Ángel Hernández
-Mauricio Suárez
+Camilo Arciniegas  
+Mariana Ardila  
+Nicolás Clavijo  
+Ángel Hernández  
+Mauricio Suárez  
 
 # Mentor
 Luz Barrera
@@ -18,7 +18,10 @@ SCAPI
 El objetivo de la solución es promover la resiliencia comunitaria mediante la reducción de la vulnerabilidad frente a las inundaciones, a través de la implementación de herramientas digitales y acciones educativas orientadas a la prevención, respuesta y recuperación ante emergencias, de la mano con la cruz roja y el gobierno.
 
 ## Link del pitch en Youtube
-*Próximamente*
+[Youtube](https://www.youtube.com/watch?v=Y9dpdcZ9m6s)
+
+## Link de la presentación
+[Presentación](https://www.canva.com/design/DAG3iJQfiiA/AOgCWqTK3DtJBf5T9FZ8Zw/edit?utm_content=DAG3iJQfiiA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Documentación
 
@@ -50,11 +53,9 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 ### Configuración
 
-1. Clonar el repositorio:
-
-```bash
-git clone <URL_DEL_REPOSITORIO>
-````
+1. Clonar los repositorios:
+[Link al repositorio de la pagina web](https://github.com/maosuarez/sabana-hack-webpage.git)
+[Link al repositorio del modelo machine learning y chatbot](https://github.com/maosuarez/sabana-hack-chatbot.git)
 
 2. Instalar las dependencias del proyecto:
 
